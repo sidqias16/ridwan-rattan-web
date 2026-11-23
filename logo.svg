@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rattanGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A373"/>
+      <stop offset="50%" stop-color="#BC6C25"/>
+      <stop offset="100%" stop-color="#8C4A11"/>
+    </linearGradient>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#283618"/>
+      <stop offset="100%" stop-color="#1B2610"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon: Stylized Woven Rattan Knot / Circle -->
+  <g transform="translate(10, 10)">
+    <circle cx="30" cy="30" r="28" fill="url(#warmBg)" stroke="#D4A373" stroke-width="2.5"/>
+    <!-- Weave lines -->
+    <path d="M16 22 Q30 14 44 22 Q30 30 16 22" fill="none" stroke="url(#rattanGold)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M16 38 Q30 30 44 38 Q30 46 16 38" fill="none" stroke="url(#rattanGold)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M22 16 Q30 30 22 44 Q14 30 22 16" fill="none" stroke="#E9EDC9" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M38 16 Q46 30 38 44 Q30 30 38 16" fill="none" stroke="#E9EDC9" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="30" cy="30" r="4.5" fill="#FAEDCD"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="80" y="36" font-family="'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="22" font-weight="800" fill="#283618" letter-spacing="0.5">
+    RIDWAN <tspan fill="#BC6C25">RATTAN</tspan>
+  </text>
+  <text x="82" y="54" font-family="'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="10.5" font-weight="600" fill="#606C38" letter-spacing="2.5">
+    CIREBON INDONESIA • EXPORT QUALITY
+  </text>
+</svg>
